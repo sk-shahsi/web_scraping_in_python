@@ -27,6 +27,11 @@ class PriceTracker:
 # device = PriceTracker("https://www.amazon.in/Apple-iPhone-15-128-GB/dp/B0CHX2F5QT/")
 # print(device.product_title())
 # print(device.product_price())
-samsung=PriceTracker("https://www.amazon.in/Samsung-Galaxy-Smartphone-Silver-Storage/dp/B0D73TQLFZ/ref=pd_sbs_d_sccl_1_6/523-0276972-1314800?pd_rd_w=u5sZc&content-id=amzn1.sym.6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_p=6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_r=VS1APJ9D6AVNN60NMMS9&pd_rd_wg=b4sSF&pd_rd_r=ef6b90f0-545b-4d52-a87d-b61af2bcd406&pd_rd_i=B0D73TQLFZ&th=1")
-print(samsung.product_title())
-print(samsung.product_price())
+# samsung=PriceTracker("https://www.amazon.in/Samsung-Galaxy-Smartphone-Silver-Storage/dp/B0D73TQLFZ/ref=pd_sbs_d_sccl_1_6/523-0276972-1314800?pd_rd_w=u5sZc&content-id=amzn1.sym.6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_p=6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_r=VS1APJ9D6AVNN60NMMS9&pd_rd_wg=b4sSF&pd_rd_r=ef6b90f0-545b-4d52-a87d-b61af2bcd406&pd_rd_i=B0D73TQLFZ&th=1")
+# print(samsung.product_title())
+# print(samsung.product_price())
+
+iphone = PriceTracker("https://www.amazon.in/iPhone-Air-256-GB-Promotion/dp/B0FQFJGP8S/ref=pd_sbs_d_sccl_1_5/523-0276972-1314800?pd_rd_w=u5sZc&content-id=amzn1.sym.6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_p=6d240404-f8ea-42f5-98fe-bf3c8ec77086&pf_rd_r=VS1APJ9D6AVNN60NMMS9&pd_rd_wg=b4sSF&pd_rd_r=ef6b90f0-545b-4d52-a87d-b61af2bcd406&pd_rd_i=B0FQFJGP8S&th=1")
+
+print(iphone.product_title())
+print(iphone.product_price())
